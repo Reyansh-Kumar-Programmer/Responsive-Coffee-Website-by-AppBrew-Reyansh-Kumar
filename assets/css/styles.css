@@ -813,7 +813,13 @@ button {
     flex-direction: row;
     column-gap: 4rem;
   }
-
+  
+  .blog__content {
+    grid-template-columns: repeat(2, 320px);
+    column-gap: 5rem;
+    padding-top: 2rem;
+  }
+  
   .nav__link {
     position: relative;
     font-size: var(--normal-font-size);
